@@ -53,7 +53,6 @@ function addData() {
       sum =sum+element.age;
     });
     console.log(`Average age is ${sum}`);
-    console.log(sum / finalLength);
   }
   
   // 6. Age Check
