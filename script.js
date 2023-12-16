@@ -52,7 +52,8 @@ function addData() {
     data.forEach((element) => {
       sum =sum+element.age;
     });
-    console.log(`Average age is ${sum}`);
+     let count=(sum / finalLength);
+    console.log(`Average age is ${count}`);
   }
   
   // 6. Age Check
@@ -102,5 +103,5 @@ function addData() {
         count += 1;
       }
     });
-    console.log(`We have ${count} developers in our system`);
+    console.log(`There are total ${count} developers`);
   }
