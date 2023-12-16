@@ -21,7 +21,7 @@ function printDeveloper() {
 // 2. Add Data
 function addData() {
   const name = prompt('Enter name- ');
-  const age = prompt('Enter age- ');
+  const age = parseInt(prompt('Enter age- '));
   const profession = prompt('Enter profession-');
   data.push({ name, age, profession });
   console.log(data);
