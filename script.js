@@ -52,6 +52,7 @@ function addData() {
     data.forEach((element) => {
       sum =sum+element.age;
     });
+    console.log(`Average age is ${sum}`);
     console.log(sum / finalLength);
   }
   
